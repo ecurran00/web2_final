@@ -11,6 +11,7 @@
 }
 
 .the-icons {
+  padding: 50px 0 ;
   text-align: center;
 }
 
@@ -23,7 +24,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin: 0 .3em;
   text-align: center;
   /* opacity: .8; */
  
@@ -34,19 +35,23 @@
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
  
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
- 
   /* you can be more comfortable with increased icons size */
-  font-size: 160%;
+  /* font-size: 160%; */
  
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  transition: all .2s ease-out;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.icon:hover {
+  color: #999999;
+  font-size: 20px;
 }
 
 .icon-icon-01:before { content: '\e800'; }

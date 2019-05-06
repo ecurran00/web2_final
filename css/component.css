@@ -165,6 +165,11 @@ body {
 	animation: loader 0.5s infinite ease-in-out both;
 }
 
+.vimeo {
+	padding-top: 50px;
+}
+
+
 @-webkit-keyframes loader {
 	0% { background: #ddd; }
 	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }

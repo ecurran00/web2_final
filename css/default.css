@@ -43,6 +43,37 @@ a {
 	text-decoration: none;
 }
 
+#animation {
+	transform: scale(3.0);
+}
+
+.about-me {
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0 auto;
+	font-weight: 700;
+	color: #333;
+	width: 90%;
+	max-width: 1240px;
+	margin: 0 auto;
+	position: relative;
+	padding: 60px 30px 50px 30px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid purple;
+    margin: 1em 0;
+    padding: 0;
+	padding: 0px 80px 0px 80px;
+}
+
+.push {
+	padding-top: 25px;
+}
+
 .container {
 	width: 100%;
 	position: relative;
